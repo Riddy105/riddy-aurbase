@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <script src="../scripts/visibility.js" defer></script>
+    <title>Aurbase Website</title>
+  </head>
+  <body class="flex justify-center md:items-center h-screen">
+    <div class="w-4/5 md:w-3/5 h-screen grid grid-cols-1 lg:grid-cols-2">
+      <div class="hidden lg:block">
+        <img
+          src="../src/assets/images/Registration.png"
+          alt="Company Registration"
+          class=""
+        />
+      </div>
+      <div>
+        <form action="" class="py-6 md:py-2 w-90 mx-auto font-semibold">
+          <div class="flex justify-between items-end mb-3 md:mb-8">
+            <a href="#">
+              <img
+                src="../src/assets/images/Aurbase Logo.png"
+                alt="Aurbuse logo"
+                class="w-[101px] h-[32px] lg:w-[169px] lg:h-[55px] object-contain"
+              />
+            </a>
+            <span class="font-bold text-2xl">X</span>
+          </div>
+          <h2 class="text-3xl text-lg mb-3 md:6">Create an Account</h2>
+          <div class="inputs flex flex-col gap-3">
+            <div class="flex flex-col">
+              <label
+                for="fullname"
+                class="text-base md:text-lg text-grey-300/80"
+                >Fullname</label
+              >
+              <input
+                type="text"
+                id="fullname"
+                class="bg-blue-100 rounded h-10 border border-grey-300/50 focus:outline-gold/50"
+              />
+            </div>
+            <div class="flex flex-col">
+              <label for="" class="text-base md:text-lg text-grey-300/80"
+                >Role</label
+              >
+              <select
+                name="role"
+                id="role"
+                class="bg-blue-100 rounded h-10 border border-grey-300/50 focus:outline-gold/50"
+              >
+                <option value="frontend">Frontend</option>
+                <option value="backend">Backend</option>
+                <option value="Data-science">Data Science</option>
+              </select>
+            </div>
+            <div class="flex flex-col">
+              <label for="company" class="text-base md:text-lg text-grey-300/80"
+                >Company name</label
+              >
+              <input
+                type="text"
+                id="company"
+                class="bg-blue-100 rounded h-10 border border-grey-300/50 focus:outline-gold/50"
+              />
+            </div>
+            <div class="flex flex-col">
+              <label for="work" class="text-base md:text-lg text-grey-300/80"
+                >Work Email</label
+              >
+              <input
+                type="email"
+                id="work"
+                class="bg-blue-100 rounded h-10 border border-grey-300/50 focus:outline-gold/50"
+              />
+            </div>
+            <div class="flex flex-col">
+              <label for="work" class="text-base md:text-lg text-grey-300/80"
+                >Password</label
+              >
+              <div class="relative">
+                <input
+                  type="password"
+                  id="password"
+                  class="bg-blue-100 rounded h-10 border border-grey-300/50 focus:outline-gold/50 w-full"
+                />
+                <button class="absolute right-[5%] top-[20%] toggle-btn">
+                  <img src="../src/assets/icons/EyeSlash.png" alt="" class="" />
+                </button>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <label for="work" class="text-base md:text-lg text-grey-300/80"
+                >Confirm Password</label
+              >
+              <div class="relative">
+                <input
+                  type="password"
+                  id="confirm-password"
+                  class="bg-blue-100 rounded h-10 border border-grey-300/50 focus:outline-gold/50 w-full"
+                />
+                <button class="absolute right-[5%] top-[20%] toggle-btn">
+                  <img src="../src/assets/icons/EyeSlash.png" alt="" class="" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-1 my-4">
+            <input type="checkbox" class="md:w-[30px]" />
+            <p class="text-base md:text-lg">
+              I accept the <span class="text-gold">Terms and Conditions</span> &
+              terms of <span class="text-gold">Privacy Policy</span>
+            </p>
+          </div>
+          <button class="py-4 bg-black-100 text-white w-full rounded">
+            Create Account
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

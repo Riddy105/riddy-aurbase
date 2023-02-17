@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <script src="../scripts/script.js" defer></script>
+    <title>Aurbase Website</title>
+  </head>
+  <body>
+    <header class="container-custom relative" id="header">
+      <nav
+        class="flex justify-between pt-4 sm:pb-6 items-baseline smallPc:items-end sm:border-b border-solid border-black/10 mb-8"
+      >
+        <a href="../index.html">
+          <img
+            src="../src/assets/images/Aurbase Logo.png"
+            alt="Aurbuse logo"
+            class="w-[101px] h-[32px] lg:w-[169px] lg:h-[55px] object-contain"
+          />
+        </a>
+        <ul
+          class="absolute top-[150%] smallPc:relative translate-x-[110%] smallPc:translate-x-0 w-full h-[100vh] smallPc:w-auto smallPc:h-auto bg-grey-50 smallPc:bg-transparent flex flex-col smallPc:flex-row justify-center gap-14 smallPc:gap-7 items-center smallPc:items-start text-black-100 text-lg"
+        >
+          <li>
+            <a href="./company.html" class="smallPc:text-sm xl:text-lg"
+              >For Company</a
+            >
+          </li>
+          <li>
+            <a href="./talent.html" class="smallPc:text-sm xl:text-lg"
+              >For Talents</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="bg-black-100 text-white py-4 px-16 rounded smallPc:text-sm xl:text-lg"
+              >Sign In</a
+            >
+          </li>
+          <li>
+            <a href="#" class="smallPc:text-sm xl:text-lg"
+              >Become an Aurbaser</a
+            >
+          </li>
+        </ul>
+        <button class="smallPc:hidden mobile-btn translate-y-[20%]">
+          <ion-icon name="menu-outline" class="text-5xl"></ion-icon>
+          <ion-icon name="close-outline" class="text-5xl hidden"></ion-icon>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="container-custom grid grid-cols-1 md:grid-cols-2 md:mt-16 gap-4 xl:gap-0"
+      >
+        <div>
+          <h2 class="font-bold text-xl md:text-4xl mb-4">
+            We'd love to hear from you.Get In Touch
+          </h2>
+          <p class="text-base md:text-lg">
+            Fill out the form below and a CQT representative will contact you as
+            soon as possible. For immediate assistance.
+          </p>
+          <img src="../src/assets/images/contactus-hero.png" alt="Contact us" />
+          <div class="text-lg mb-6">
+            <p class="font-semibold">Address</p>
+            <address class="">No 4890,Delaware, United States.</address>
+          </div>
+          <div class="text-lg">
+            <p class="font-semibold">Email</p>
+            <address class="">support@aurbase.io</address>
+          </div>
+        </div>
+        <div class="bg-blue-100">
+          <form action="" class="p-5 md:p-11">
+            <h2 class="font-bold text-3xl mb-2">Drop us a message</h2>
+            <p class="text-base mb-5">We'd love to hear from you!</p>
+            <div class="flex flex-col">
+              <label for="fullname" class="font-semibold text-xl"
+                >Full name</label
+              >
+              <input
+                type="text"
+                placeholder="Full name"
+                id="fullname"
+                class="h-10 border border-grey-300/50 rounded pl-2"
+              />
+            </div>
+            <div class="flex flex-col my-4">
+              <label for="email" class="font-semibold text-xl"
+                >Email Address</label
+              >
+              <input
+                type="text"
+                placeholder="Email Address"
+                id="email"
+                class="h-10 border border-grey-300/50 rounded pl-2"
+              />
+            </div>
+            <div class="flex flex-col my-5">
+              <label for="inquiry" class="font-semibold text-xl"
+                >Your Inquiry</label
+              >
+              <input
+                type="text"
+                placeholder="Select"
+                id="inquiry"
+                class="h-10 border border-grey-300/50 rounded pl-2"
+              />
+            </div>
+            <div class="flex flex-col">
+              <label for="inquiry" class="font-semibold text-xl">Message</label>
+              <textarea
+                name="feedback"
+                id=""
+                cols="30"
+                rows="5"
+                class="border border-grey-300/50 rounded pl-2"
+              >
+I would love to know about........</textarea
+              >
+            </div>
+            <button
+              href="#"
+              class="py-5 w-1/2 bg-black-100 text-white rounded-md mt-5 md:mt-10"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="pt-11 lg:pt-36 text-black-50 relative">
+      <section
+        class="container-custom xl:w-5/6 flex flex-col gap-4 sm:gap-0 sm:flex-row justify-between items-start mb-5 lg:mb-24"
+      >
+        <div class="flex flex-col">
+          <h2 class="text-lg lg:text-3xl font-semibold">
+            Don't miss our weekly updates
+          </h2>
+          <p class="text-xs lg:text-lg">Join our newsletter</p>
+        </div>
+        <div class="flex w-full sm:basis-6/12 gap-5">
+          <input
+            type="email"
+            placeholder="Enter your Email address"
+            class="pl-3 h-11 sm:h-14 rounded border border-grey-300/80 w-[75%]"
+          />
+          <button
+            type="submit"
+            class="bg-black-100 text-white rounded-md px-5 lg:px-14"
+          >
+            Suscribe
+          </button>
+        </div>
+      </section>
+      <section
+        class="contact-section container-custom xl:w-5/6 grid grid-cols-2 lg:grid-cols-footerDesktop items-baseline lg:justify-items-center gap-y-8 pb-11 lg:pb-32"
+      >
+        <div class="flex flex-col items-start gap-5 col-span-2 lg:col-end-2">
+          <img src="../src/assets/images/Aurbase Logo.png" alt="Aurbase logo" />
+          <p class="text-base lg:text-xl font-normal text-grey-300">
+            We are the world's largest and most widely spread network of vetted
+            talents, ready to take on your most important tasks.
+          </p>
+          <ul class="flex gap-2">
+            <li>
+              <a href="#"
+                ><img src="../src/assets/icons/Facebook.png" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../src/assets/icons/Twitter.png" alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../src/assets/icons/LinkedIn.png" alt="LinkedIn"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../src/assets/icons/Instagram.png" alt="Instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../src/assets/icons/Youtube.png" alt="Youtube"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="flex flex-col items-start mb-4">
+            <h2 class="font-semibold text-lg md:text-2xl">Customer</h2>
+            <img src="../src/assets/icons/Small.png" alt="small" />
+          </div>
+          <ul class="flex flex-col gap-3 font-normal text-sm lg:text-base">
+            <li><a href="./companyRegistration.html">Hire talents</a></li>
+            <li><a href="#">App</a></li>
+            <li><a href="./review.html">Review</a></li>
+            <li><a href="./howToHire.html">How to hire</a></li>
+            <li><a href="./aurgig.html">Aurgig</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="flex flex-col items-start mb-4">
+            <h2 class="font-semibold text-lg md:text-2xl">Talent</h2>
+            <img src="../src/assets/icons/Small.png" alt="small" />
+          </div>
+          <ul class="flex flex-col gap-3 font-normal text-sm lg:text-base">
+            <li><a href="./companyRegistration.html">Become an Aurbaser</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="./stack.html">High Demand Stack</a></li>
+            <li><a href="./Upskill.html">Upskills</a></li>
+            <li><a href="#">Talent Experience</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="flex flex-col items-start mb-4">
+            <h2 class="font-semibold text-lg md:text-2xl">Company</h2>
+            <img src="../src/assets/icons/Small.png" alt="small" />
+          </div>
+          <ul class="flex flex-col gap-3 font-normal text-sm lg:text-base">
+            <li><a href="./aboutUs.html">About</a></li>
+            <li><a href="./insider.html">Insider</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="#">Merch</a></li>
+            <li><a href="./NTjobs.html">Non-Tech Jobs</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="flex flex-col items-start mb-4">
+            <h2 class="font-semibold text-lg md:text-2xl">Contact</h2>
+            <img src="../src/assets/icons/Small.png" alt="small" />
+          </div>
+          <ul class="flex flex-col gap-3 font-normal text-sm lg:text-base">
+            <li><a href="./contactUs.html">Contact Us</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="sm:border-t border-grey-300/50">
+          <ul
+            class="container-custom xl:w-5/6 py-5 text-sm lg:text-base text-black-100 grid grid-cols-1 lg:grid-cols-footerDesktop gap-y-4 lg:justify-items-center"
+          >
+            <li class="justify-self-start">
+              <a href="#">Copyright &copy; 2022. All right reserved</a>
+            </li>
+            <li><a href="./policy.html" class="">Privacy & Policy</a></li>
+            <li><a href="./conduct.html" class="">Code of Conducts</a></li>
+            <li><a href="./Terms.html" class="">Terms & Conditions</a></li>
+            <li><a href="#" class="">Media Kits</a></li>
+          </ul>
+        </div>
+      </section>
+      <a
+        href="#header"
+        class="absolute bottom-[10%] right-[10%] lg:bottom-[20%] lg:right-[10%]"
+        ><img
+          src="../src/assets/icons/Arrow Jump.png"
+          alt=""
+          class="w-7 h-7 sm:w-auto sm:h-auto"
+      /></a>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <script src="../scripts/script.js" defer></script>
+    <title>Aurbase Website</title>
+  </head>
+  <body>
+    <header class="container-custom relative" id="header">
+      <nav
+        class="flex justify-between pt-4 sm:pb-6 items-baseline smallPc:items-end sm:border-b border-solid border-black/10 mb-8"
+      >
+        <a href="../index.html">
+          <img
+            src="../src/assets/images/Aurbase Logo.png"
+            alt="Aurbuse logo"
+            class="w-[101px] h-[32px] lg:w-[169px] lg:h-[55px] object-contain"
+          />
+        </a>
+        <ul
+          class="absolute top-[15%] smallPc:relative translate-x-[110%] smallPc:translate-x-0 w-full h-[100vh] smallPc:w-auto smallPc:h-auto bg-grey-50 smallPc:bg-transparent flex flex-col smallPc:flex-row justify-center gap-14 smallPc:gap-7 items-center smallPc:items-start text-black-100 text-lg"
+        >
+          <li>
+            <a
+              href="./company.html"
+              class="smallPc:text-sm xl:text-lg text-gold"
+              >For Company</a
+            >
+          </li>
+          <li>
+            <a href="./talent.html" class="smallPc:text-sm xl:text-lg"
+              >For Talents</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="bg-black-100 text-white py-4 px-16 rounded smallPc:text-sm xl:text-lg"
+              >Sign In</a
+            >
+          </li>
+          <li>
+            <a href="#" class="smallPc:text-sm xl:text-lg"
+              >Become an Aurbaser</a
+            >
+          </li>
+        </ul>
+        <button class="smallPc:hidden mobile-btn translate-y-[20%]">
+          <ion-icon name="menu-outline" class="text-5xl"></ion-icon>
+          <ion-icon name="close-outline" class="text-5xl hidden"></ion-icon>
+        </button>
+      </nav>
+      <section
+        class="hero-section bg-spots py-6 lg:py-32 flex flex-col gap-8 md:flex-row md:items-center"
+      >
+        <div class="w-4/5 md:w-1/2">
+          <h2
+            class="text-black font-bold text-2xl sm:text-3xl lg:text-6xl mb-2 lg:mb-11"
+          >
+            Leverage on vetted
+            <span class="bg-gold/50 inline-block md:mt-2">Talents </span>
+          </h2>
+          <p class="text-grey-100 text-sm sm:text-lg lg:text-2xl mb-4 lg:mb-8">
+            Tap into a pool of pre-vetted talents and spend less time
+            interviewing
+          </p>
+          <a
+            href="#"
+            class="bg-black-100 py-2 lg:py-4 w-2/5 block text-white text-center rounded-md"
+            >Hire a talent</a
+          >
+        </div>
+        <div class="w-4/5 md:w-1/2">
+          <img
+            src="../src/assets/images/company-hero.png"
+            alt="Company search"
+          />
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="bg-blue-100 pt-4 md:pt-8 pb-7 md:pb-14">
+        <div
+          class="container-custom grid grid-cols-1 md:grid-cols-custom1 gap-10 md:gap-4"
+        >
+          <div class="text-box">
+            <h2
+              class="text-2xl md:text-4xl font-bold text-black-100 mb-4 md:mb-8"
+            >
+              QUALITY TO COST HIRING
+            </h2>
+            <div class="quality flex flex-col gap-8 md:gap-12">
+              <div class="flex gap-2 items-start">
+                <img src="../src/assets/icons/Dollar.png" alt="Payment Icon" />
+                <div>
+                  <h2
+                    class="font-semibold text-black-50 text-base md:text-xl lg:text-3xl"
+                  >
+                    Hire vetted Talents at Capriquota
+                  </h2>
+                  <p class="text-sm md:text-base lg:text-lg text-grey-100">
+                    Hire vetted talent at rates designed to optimize your budget
+                    for experience and skill set.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-2 items-start">
+                <img src="../src/assets/icons/Skills.png" alt="Skills Icon" />
+                <div>
+                  <h2
+                    class="font-semibold text-black-50 text-base md:text-xl lg:text-3xl"
+                  >
+                    100+ Skills Available Talents
+                  </h2>
+                  <p class="text-sm md:text-base lg:text-lg text-grey-100">
+                    Hire Android, Angular, Dev Ops, Golang, Java, ML, Node,
+                    Python, Rails, React, React Native, Swift, and More.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-2 items-start">
+                <img src="../src/assets/icons/Risk.png" alt="Risk Icon" />
+                <div>
+                  <h2
+                    class="font-semibold text-black-50 text-base md:text-xl lg:text-3xl"
+                  >
+                    Risk Free
+                  </h2>
+                  <p class="text-sm md:text-base lg:text-lg text-grey-100">
+                    Get matched with vetted talents from around the world and
+                    hire them without risk.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="self-center">
+            <img src="../src/assets/images/hiring  1.png" alt="Hiring screen" />
+          </div>
+        </div>
+      </section>
+      <section
+        class="py-7 md:py-10 container-custom grid grid-cols-1 md:grid-cols-custom1 gap-x-7"
+      >
+        <h2
+          class="text-2xl md:text-3xl xl:text-4xl font-bold text-black-100 mb-4 md:mb-8 md:col-span-2 md:justify-self-end lg:translate-x-[-15%]"
+        >
+          RIGOROUS VETTING PROCESS
+        </h2>
+        <div class="mb-10">
+          <img
+            src="../src//assets/images/Assesment.png"
+            alt="Assesment Icon"
+            class="h-[450px] md:translate-y-[-10%]"
+          />
+        </div>
+
+        <div class="quality flex flex-col gap-8 md:gap-12">
+          <div class="flex gap-2 items-start">
+            <img src="../src/assets/icons/Hours.png" alt="Hour Icon" />
+            <div>
+              <h2
+                class="font-semibold text-black-50 text-base md:text-xl lg:text-3xl"
+              >
+                5+ hours of tests and interviews
+              </h2>
+              <p class="text-sm md:text-base lg:text-lg text-grey-100">
+                An interview procedure which is rapid, efficient and also
+                adheres to the highest admittance requirements to ensure that
+                you are matched with vetted talents on a large scale.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-2 items-start">
+            <img src="../src/assets/icons/Seniority.png" alt="Seniority Icon" />
+            <div>
+              <h2
+                class="font-semibold text-black-50 text-base md:text-xl lg:text-3xl"
+              >
+                Seniority tests
+              </h2>
+              <p class="text-sm md:text-base lg:text-lg text-grey-100">
+                We also use a variety of assessments to assess each applicant's
+                technical knowledge and problem-solving ability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-black-100 py-14">
+        <div
+          class="container-custom md:mr-0 md:ml-auto grid grid-cols-1 md:grid-cols-custom items-center gap-7"
+        >
+          <div>
+            <h2
+              class="text-2xl md:text-4xl font-bold text-white mb-4 md:mb-8 w-3/5"
+            >
+              EFFECTIVE COLLABORATION
+            </h2>
+            <div class="quality flex flex-col gap-8 md:gap-12">
+              <div class="flex gap-2 items-start">
+                <img src="../src/assets/icons/Hours.png" alt="Hour Icon" />
+                <div class="text-white">
+                  <h2 class="font-semibold text-base md:text-xl lg:text-3xl">
+                    Daily Updates
+                  </h2>
+                  <p class="text-sm md:text-base lg:text-lg">
+                    With automatic time monitoring and virtual daily stand ups,
+                    Capriquota's work space gives you additional visibility into
+                    your remote talents work.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-2 items-start">
+                <img
+                  src="../src/assets/icons/Seniority.png"
+                  alt="Seniority Icon"
+                />
+                <div class="text-white">
+                  <h2 class="font-semibold text-base md:text-xl lg:text-3xl">
+                    Easy to manage
+                  </h2>
+                  <p class="text-sm md:text-base lg:text-lg">
+                    High visibility makes it simple for Aurbaser's talents to
+                    manage and ensure that they are always working on what is
+                    most valuable to you.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-2 items-start">
+                <img
+                  src="../src/assets/icons/Timezone.png"
+                  alt="Timezone Icon"
+                />
+                <div class="text-white">
+                  <h2 class="font-semibold text-base md:text-xl lg:text-3xl">
+                    Match your timezone
+                  </h2>
+                  <p class="text-sm md:text-base lg:text-lg">
+                    Our talents match your time zone and overlap a minimum of 4
+                    hours with your workday.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="../src/assets/images/Standup 1.png" alt="Stand up" />
+          </div>
+        </div>
+      </section>
+      <section class="container-custom py-10">
+        <div class="flex flex-col gap-3 md:gap-5 mb-7 md:w-4/5 mx-auto">
+          <h2 class="text-lg md:text-3xl lg:text-4xl text-center font-bold">
+            We've Cracked the Code on Putting Together great Talents for Teams
+          </h2>
+          <p
+            class="text-sm md:text-lg lg:text-2xl text-center text-black-50/50"
+          >
+            Aurbase offers you access to vetted talents who integrate seamlessly
+            with your team.
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="../src/assets/images/advantages-desktop.png"
+            alt="Competitive advantages"
+            class="hidden sm:block"
+          />
+          <img
+            src="../src/assets/images/advantages-mobile.png"
+            alt="Competitive advantages"
+            class="sm:hidden"
+          />
+        </div>
+      </section>
+      <section class="bg-blue-100 pt-4 md:pt-8 pb-6 md:pb-14">
+        <div
+          class="container-custom grid grid-cols-1 md:grid-cols-custom gap-y-4 md:gap-y-8 gap-x-8"
+        >
+          <h2 class="font-bold text-2xl md:text-4xl lg:w-4/5">
+            How to Hire through Aurbase
+          </h2>
+          <a
+            href="#"
+            class="py-3 md:py-5 text-white bg-black-100 rounded-md px-8 justify-self-start md:justify-self-end md:self-start row-start-3 md:row-start-1 md:col-start-2"
+            >Get Started</a
+          >
+          <div class="text flex flex-col gap-8">
+            <div class="flex gap-3">
+              <span
+                class="bg-black-100 text-white h-11 w-11 rounded-full block flex justify-center items-center"
+                >1</span
+              >
+              <div class="text-black-50">
+                <h3 class="text-base md:text-3xl font-semibold">
+                  Tell us the skills you need
+                </h3>
+                <p class="text-sm md:text-lg">
+                  We'll schedule a call and discuss your requirements
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <span
+                class="bg-black-100 text-white h-11 w-11 rounded-full block flex justify-center items-center"
+                >2</span
+              >
+              <div class="text-black-50">
+                <h3 class="text-base md:text-3xl font-semibold">
+                  We find the best talent for you
+                </h3>
+                <p class="text-sm md:text-lg">
+                  Get a list of pre-vetted talents within days.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <span
+                class="bg-black-100 text-white h-11 w-11 rounded-full block flex justify-center items-center"
+                >3</span
+              >
+              <div class="text-black-50">
+                <h3 class="text-base md:text-3xl font-semibold">
+                  Schedule interviews
+                </h3>
+                <p class="text-sm md:text-lg">
+                  Meet and select the Talents you like.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <span
+                class="bg-black-100 text-white h-11 w-11 rounded-full block flex justify-center items-center"
+                >4</span
+              >
+              <div class="text-black-50">
+                <h3 class="text-base md:text-3xl font-semibold">
+                  Begin your trial
+                </h3>
+                <p class="text-sm md:text-lg">
+                  Start building your team with a no-risk trial period.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img
+              src="../src/assets/images/Woman Bigger.png"
+              alt="Woman"
+              class="sm:max-md:w-4/5"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="container-custom py-8 md:py-16">
+        <h2 class="font-semibold text-lg md:text-3xl text-black-100">
+          Hire Top Aurbase Talents
+        </h2>
+        <div class="my-8">
+          <img
+            src="../src/assets/images/Languages.png"
+            alt="Different tech stacks"
+          />
+        </div>
+        <a
+          href="#"
+          class="py-3 md:py-4 px-8 bg-black-100 rounded-md text-white block w-fit"
+          >Hire Talents Now</a
+        >
+      </section>
+      <section class="text-center container-custom mb-10 sm:mb-20">
+        <h2 class="text-2xl sm:text-4xl font-bold">
+          Join Top Companies hiring
+        </h2>
+        <p class="text-lg text-black-100/70 font-normal mb-4">
+          Build your career by hiring the top talents
+        </p>
+        <div
+          class="flex flex-wrap justify-center items-center gap-4 lg:gap-8 xl:gap-10"
+        >
+          <img
+            src="../src/assets/images/Meta Logo.png"
+            alt="Meta Logo"
+            class="w-[30%] h-auto object-scale-down sm:w-auto sm:object-none"
+          />
+          <img
+            src="../src/assets/images/Amazon Logo.png"
+            alt="Amazon Logo"
+            class="w-[30%] h-auto object-scale-down sm:w-auto sm:object-none translate-y-2.5"
+          />
+          <img
+            src="../src/assets/images/Apple Logo.png"
+            alt="Apple Logo"
+            class="w-[30%] h-auto object-scale-down sm:w-auto sm:object-none lg:-translate-y-1"
+          />
+          <img
+            src="../src/assets/images/Netflix Logo.png"
+            alt="Netflix Logo"
+            class="w-[30%] h-auto object-scale-down sm:w-auto sm:object-none"
+          />
+          <img
+            src="../src/assets/images/Google Logo.png"
+            alt="Google Logo"
+            class="w-[30%] h-auto object-scale-down sm:w-auto sm:object-none"
+          />
+          <img
+            src="../src/assets/images/Microsoft Logo.png"
+            alt="Microsoft Logo"
+            class="w-[30%] h-auto object-scale-down sm:w-auto sm:object-none"
+          />
+        </div>
+      </section>
+      <section class="py-12 lg:py-20 bg-black-100">
+        <div
+          class="w-90 ml-auto flex flex-col lg:flex-row lg:items-center gap-7 lg:gap-10"
+        >
+          <!-- Switch to row on larger screens -->
+          <div>
+            <h2 class="text-2xl lg:text-5xl font-semibold text-white mb-10">
+              What our <span class="text-gold">clients</span> says about us
+            </h2>
+            <div class="flex gap-4">
+              <button>
+                <img
+                  src="../src/assets/icons/Arrow left.png"
+                  alt="Arrow Left"
+                  class="arrow-left"
+                />
+              </button>
+              <button>
+                <img
+                  src="../src/assets/icons/Arrow right.png"
+                  alt="Arrow Right"
+                  class="arrow-right"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="h-[350px] lg:h-[420px] flex gap-7 overflow-hidden w-90">
+            <div
+              class="transition-all duration-1000 ease-out review bg-white h-[350px] lg:h-[420px] py-6 px-6 w-[270px] lg:w-[380px] shrink-0"
+            >
+              <img src="../src/assets/icons/Quotes.png" alt="Quotes" />
+              <h2 class="font-semibold text-base mt-5 mb-7 lg:mt-10 lg:mb-20">
+                “Every developer i have worked with at capriquota They are great
+                engineers, really driven to deliver, and they’re just great
+                people.”
+              </h2>
+              <div class="flex gap-4 items-start">
+                <img
+                  src="../src/assets/images/Top fruits.png"
+                  alt="Top fruits"
+                />
+                <div>
+                  <p class="text-sm lg:text-lg text-grey-300/50">
+                    Olawale Emmanuel
+                  </p>
+                  <p class="text-sm lg:text-lg text-grey-300/50">
+                    CEO, TopFruits
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transition-all duration-1000 ease-out review bg-white h-[350px] lg:h-[420px] py-6 px-6 w-[270px] lg:w-[380px] shrink-0"
+            >
+              <img src="../src/assets/icons/Quotes.png" alt="Quotes" />
+              <h2 class="font-semibold text-base mt-5 mb-7 lg:mt-10 lg:mb-20">
+                “Every developer i have worked with at capriquota They are great
+                engineers, really driven to deliver, and they’re just great
+                people.”
+              </h2>
+              <div class="flex gap-4 items-start">
+                <img
+                  src="../src/assets/images/Top fruits.png"
+                  alt="Top fruits"
+                />
+                <div>
+                  <p class="text-sm lg:text-lg text-grey-300/50">
+                    Olawale Emmanuel
+                  </p>
+                  <p class="text-sm lg:text-lg text-grey-300/50">
+                    CEO, TopFruits
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transition-all duration-1000 ease-out review bg-white h-[350px] lg:h-[420px] py-6 px-6 w-[270px] lg:w-[380px] shrink-0"
+            >
+              <img src="../src/assets/icons/Quotes.png" alt="Quotes" />
+              <h2 class="font-semibold text-base mt-5 mb-7 lg:mt-10 lg:mb-20">
+                “Every developer i have worked with at capriquota They are great
+                engineers, really driven to deliver, and they’re just great
+                people.”
+              </h2>
+              <div class="flex gap-4 items-start">
+                <img
+                  src="../src/assets/images/Top fruits.png"
+                  alt="Top fruits"
+                />
+                <div>
+                  <p class="text-sm lg:text-lg text-grey-300/50">
+                    Olawale Emmanuel
+                  </p>
+                  <p class="text-sm lg:text-lg text-grey-300/50">
+                    CEO, TopFruits
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transition-all duration-1000 ease-out review bg-white h-[350px] lg:h-[420px] py-6 px-6 w-[270px] lg:w-[380px] shrink-0"
+            >
+              <img src="../src/assets/icons/Quotes.png" alt="Quotes" />
+              <h2 class="font-semibold text-base mt-5 mb-7 lg:mt-10 lg:mb-20">
+                “Every developer i have worked with at capriquota They are great
+                engineers, really driven to deliver, and they’re just great
+                people.”
+              </h2>
+              <div class="flex gap-4 items-start">
+                <img
+                  src="../src/assets/images/Top fruits.png"
+                  alt="Top fruits"
+                />
+                <div>
+                  <p class="text-sm lg:text-lg text-grey-300/50">
+                    Olawale Emmanuel
+                  </p>
+                  <p class="text-sm lg:text-lg text-grey-300/50">
+                    CEO, TopFruits
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pt-11 lg:pt-36 text-black-50 relative">
+      <section
+        class="container-custom xl:w-5/6 flex flex-col gap-4 sm:gap-0 sm:flex-row justify-between items-start mb-5 lg:mb-24"
+      >
+        <div class="flex flex-col">
+          <h2 class="text-lg lg:text-3xl font-semibold">
+            Don't miss our weekly updates
+          </h2>
+          <p class="text-xs lg:text-lg">Join our newsletter</p>
+        </div>
+        <div class="flex w-full sm:basis-6/12 gap-5">
+          <input
+            type="email"
+            placeholder="Enter your Email address"
+            class="pl-3 h-11 sm:h-14 rounded border border-grey-300/80 w-[75%]"
+          />
+          <button
+            type="submit"
+            class="bg-black-100 text-white rounded-md px-5 lg:px-14"
+          >
+            Suscribe
+          </button>
+        </div>
+      </section>
+      <section
+        class="contact-section container-custom xl:w-5/6 grid grid-cols-2 lg:grid-cols-footerDesktop items-baseline lg:justify-items-center gap-y-8 pb-11 lg:pb-32"
+      >
+        <div class="flex flex-col items-start gap-5 col-span-2 lg:col-end-2">
+          <img src="../src/assets/images/Aurbase Logo.png" alt="Aurbase logo" />
+          <p class="text-base lg:text-xl font-normal text-grey-300">
+            We are the world's largest and most widely spread network of vetted
+            talents, ready to take on your most important tasks.
+          </p>
+          <ul class="flex gap-2">
+            <li>
+              <a href="#"
+                ><img src="../src/assets/icons/Facebook.png" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../src/assets/icons/Twitter.png" alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../src/assets/icons/LinkedIn.png" alt="LinkedIn"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../src/assets/icons/Instagram.png" alt="Instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../src/assets/icons/Youtube.png" alt="Youtube"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="flex flex-col items-start mb-4">
+            <h2 class="font-semibold text-lg md:text-2xl">Customer</h2>
+            <img src="../src/assets/icons/Small.png" alt="small" />
+          </div>
+          <ul class="flex flex-col gap-3 font-normal text-sm lg:text-base">
+            <li><a href="./companyRegistration.html">Hire talents</a></li>
+            <li><a href="#">App</a></li>
+            <li><a href="./review.html">Review</a></li>
+            <li><a href="./howToHire.html">How to hire</a></li>
+            <li><a href="./aurgig.html">Aurgig</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="flex flex-col items-start mb-4">
+            <h2 class="font-semibold text-lg md:text-2xl">Talent</h2>
+            <img src="../src/assets/icons/Small.png" alt="small" />
+          </div>
+          <ul class="flex flex-col gap-3 font-normal text-sm lg:text-base">
+            <li><a href="./companyRegistration.html">Become an Aurbaser</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="./stack.html">High Demand Stack</a></li>
+            <li><a href="./Upskill.html">Upskills</a></li>
+            <li><a href="#">Talent Experience</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="flex flex-col items-start mb-4">
+            <h2 class="font-semibold text-lg md:text-2xl">Company</h2>
+            <img src="../src/assets/icons/Small.png" alt="small" />
+          </div>
+          <ul class="flex flex-col gap-3 font-normal text-sm lg:text-base">
+            <li><a href="./aboutUs.html">About</a></li>
+            <li><a href="./insider.html">Insider</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="#">Merch</a></li>
+            <li><a href="./NTjobs.html">Non-Tech Jobs</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="flex flex-col items-start mb-4">
+            <h2 class="font-semibold text-lg md:text-2xl">Contact</h2>
+            <img src="../src/assets/icons/Small.png" alt="small" />
+          </div>
+          <ul class="flex flex-col gap-3 font-normal text-sm lg:text-base">
+            <li><a href="./contactUs.html">Contact Us</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="sm:border-t border-grey-300/50">
+          <ul
+            class="container-custom xl:w-5/6 py-5 text-sm lg:text-base text-black-100 grid grid-cols-1 lg:grid-cols-footerDesktop gap-y-4 lg:justify-items-center"
+          >
+            <li class="justify-self-start">
+              <a href="#">Copyright &copy; 2022. All right reserved</a>
+            </li>
+            <li><a href="./policy.html" class="">Privacy & Policy</a></li>
+            <li><a href="./conduct.html" class="">Code of Conducts</a></li>
+            <li><a href="./Terms.html" class="">Terms & Conditions</a></li>
+            <li><a href="#" class="">Media Kits</a></li>
+          </ul>
+        </div>
+      </section>
+      <a
+        href="#header"
+        class="absolute bottom-[10%] right-[10%] lg:bottom-[20%] lg:right-[10%]"
+        ><img
+          src="../src/assets/icons/Arrow Jump.png"
+          alt=""
+          class="w-7 h-7 sm:w-auto sm:h-auto"
+      /></a>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

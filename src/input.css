@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body,
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+}
+.container-custom {
+  @apply w-90 mx-auto;
+}
+
+a {
+  @apply font-semibold;
+}
+.slider {
+  @apply overflow-hidden relative;
+}
+
+.slide {
+  @apply absolute top-0 w-full h-[30rem] transition-all duration-2000 ease-out;
+}
+
+nav ul {
+  @apply top-[15%] right-0  z-10 transition-all duration-1000;
+}
+.nav-open ul {
+  @apply translate-x-0;
+}
+.nav-open [name="menu-outline"] {
+  @apply hidden;
+}
+.nav-open [name="close-outline"] {
+  @apply block;
+}
+.iframe-container {
+  @apply relative pt-7 overflow-hidden;
+}
+.iframe-container iframe,
+.iframe-container .iframe-text {
+  @apply absolute top-0 left-0 w-full h-full;
+}
+.faq-open .faq-para,
+.faq-open .minus-btn {
+  @apply block;
+}
+.faq-open .plus-btn {
+  @apply hidden;
+}
+.contact-section a {
+  font-weight: 400;
+}
+
+.active-continent {
+  @apply bg-black-100;
+}
+.active-continent svg path {
+  @apply fill-gold;
+}
+.active-continent span {
+  @apply text-gold;
+}
+/* TO REMOVE SCROLLBAR FROM OVERFLOWING REVIEWS */
+.review-container::-webkit-scrollbar {
+  @apply hidden;
+}
+
+.course-open section {
+  @apply block;
+}
+.course-open .down-arr {
+  @apply rotate-180;
+}
+.modal-overlay.show {
+  @apply block;
+}
+
+.active-week {
+  @apply bg-black-100 text-white;
+}
+
+/* BLOG PAGE */
+.active-page {
+  @apply bg-black-100 text-white font-bold;
+}

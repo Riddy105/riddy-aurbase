@@ -1,0 +1,22 @@
+{
+  "name": "aurbase-website-plain",
+  "version": "1.0.0",
+  "description": "Aurbuse Website",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/aurbase1/aurbase-website-plain.git"
+  },
+  "author": "Ridwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/aurbase1/aurbase-website-plain/issues"
+  },
+  "homepage": "https://gitlab.com/aurbase1/aurbase-website-plain#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

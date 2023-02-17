@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 30px; /* size of chrome */
+        height: 0;
+        overflow: hidden;
+      }
+
+      .video-container iframe,
+      .video-container object,
+      .video-container #overlay,
+      .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      #overlay {
+        background: #000;
+        opacity: 0.5;
+        /*background:rgba(255,255,255,0.8); or just this*/
+        z-index: 50;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="holder">
+      <div class="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/EStjTZ9VwbE?wmode=opaque&autoplay=1&loop=1&showinfo=0"
+          frameborder="0"
+        ></iframe>
+        <div id="overlay"><h3>Woooooooooo</h3></div>
+      </div>
+      <iframe
+        style="width: 100%; background-color: red"
+        src="https://docs.google.com/forms/d/e/1FAIpQLScRk1em8qFVl4DwK7E_D7lmiOnV-YC30wLU1d9crSeRRHkysQ/viewform?embedded=true"
+        width="640"
+        height="382"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Loading…</iframe
+      >
+    </div>
+  </body>
+</html>
